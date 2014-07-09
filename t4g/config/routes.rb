@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'workouts/new'
+
+  get 'workouts/edit'
+
+  get 'workouts/destroy'
+
   get 'static/home'
 
   get 'static/about'
